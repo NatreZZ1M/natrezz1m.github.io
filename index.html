@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/styles/styles.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>База отдыха "Выходское"</title>
+</head>
+
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-tree"></i>
+                <img class="LOGO" src="source/image/LOGO.png" alt="ВХД">
+                <span>Выходское</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#room">Номера</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="phone">
+                <div class="phone-icon">
+                    <i class="las la-phone"></i>
+                </div>
+                <span>+7 (900) 123-45-67</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>База отдыха "Выходское"</h1>
+            <p>Идеальное место для отдыха на природе в окружении озера и леса</p>
+            <a href="#contact" class="btn">Забронировать сейчас</a>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">О нашей базе отдыха</h2>
+            <div class="about-content">
+
+                <div class="about-text">
+                    <p>База отдыха "Выходское" расположена в живописном месте на берегу чистейшего озера, в окружении
+                        хвойного леса. Мы предлагаем комфортный отдых для всех друзей, корпоративных групп и влюбленных
+                        пар.</p>
+                    <p>На территории базы имеются палатки различных категорий, качели, банный комплекс и
+                        множество развлечений на свежем воздухе.</p>
+                    <ul class="check-list">
+                        <li> ✓ Собственный пляж</li>
+                        <li> ✓ Баня на дровах</li>
+                        <li> ✓ Прокат лодок и плота</li>
+                        <li> ✓ 3-х разовое питание</li>
+                        <li> ✓ Ежедневная культурная программа</li>
+                    </ul>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="source/image/about_picture.jpg" alt="Выходское природа" class="image-main">
+                        <img src="source/image/about_picture2.jpg" alt="Выходское природа" class="image-hover">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Номера -->
+    <section class="room-section" id="room">
+        <div class="container">
+            <h2 class="section-title">Наши номера</h2>
+            <div class="room-grid">
+
+                <div class="room-card">
+                    <div class="room-image">
+                        <a href="#contact"><img src="source/image/tent-lucs.webp"
+                                alt="Палатка тент 6 шести местная"></a>
+                    </div>
+                    <div class="room-info">
+                        <h3>Палатка "Люкс"</h3>
+                        <p>Комфортная палатка для 4-6 человек <br>с отдельным тамбуром и зоной мангала</p>
+                        <div class="room-price">От 800 руб./в сутки</div>
+                        <a href="#contact" class="btn-small">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image">
+                        <a href="#contact"><img src="source/image/tent-norm.webp"
+                                alt="Палатка тент 4 четырех местная"></a>
+                    </div>
+                    <div class="room-info">
+                        <h3>Палатка "Комфорт"</h3>
+                        <p>Комфортная палатка для 3-4 человек <br>с отдельным тамбуром
+                        <div class="room-price">От 600 руб./в сутки</div>
+                        <a href="#contact" class="btn-small">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image">
+                        <a href="#contact"><img src="source/image/tent-eco.webp" alt="Палатка тент 2 местная"></a>
+                    </div>
+                    <div class="room-info">
+                        <h3>Палатка "Классика"</h3>
+                        <p>Комфортная палатка для 2 человек <br>Тепло и уютно</p>
+                        <div class="room-price">От 300 руб./в сутки</div>
+                        <a href="#contact" class="btn-small">Забронировать</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Сервис -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+
+                <div class="services-card">
+                    <div class="services-icon">
+                        <i class="las la-hamburger"></i>
+                    </div>
+                    <h3>Походная кухня</h3>
+                    <p>Вкусная еда, приготовленная на костре. Сытные горячие блюда с дымком, которые становятся особенно
+                        вкусными на свежем воздухе</p>
+                </div>
+
+                <div class="services-card">
+                    <div class="services-icon">
+                        <i class="las la-fish"></i>
+                    </div>
+                    <h3>Рыбалка</h3>
+                    <p>Прокат лодок и снаряжения для рыблаки. Надёжные удочки и полный комплект профессиональных
+                        приманок</p>
+                </div>
+
+                <div class="services-card">
+                    <div class="services-icon">
+                        <i class="las la-hot-tub"></i>
+                    </div>
+                    <h3>Баня</h3>
+                    <p>Походная парная на берегу озера. Настоящая баня по-чёрному с можжевеловым веником и ледяной водой
+                        под открытым небом</p>
+                </div>
+
+                <div class="services-card">
+                    <div class="services-icon">
+                        <i class="las la-hiking"></i>
+                    </div>
+                    <h3>Активный отдых</h3>
+                    <p>Походы на камень и к руинам. Захватывающий маршрут к таинственным древним руинам и смотровой
+                        скале «Камень»</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h3 class="section-title">Контакты и бронирование</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+
+                        <h2>Как нас найти</h2>
+                        <p><i class="las la-map-marker"></i> Ленинградская область, деревня Выходское</p>
+                        <p><i class="las la-phone"></i> +7 (900) 123-45-67 (бесплатно по России)</p>
+                        <p><i class="las la-envelope"></i> info@vykhodskoye.ru</p>
+                        <p><i class="las la-clock"></i> Круглосуточно, без выходных</p>
+
+                        <h2>Форма бронирования</h2>
+                        <form class="form">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="text" placeholder="Ваш телефон" required>
+                            <input type="date" placeholder="Дата заезда" required>
+                            <input type="date" placeholder="Дата выезда" required>
+                            <select required>
+                                <option value="" disabled selected>Тип размещения</option>
+                                <option value="lucs">Палатка "Люкс"</option>
+                                <option value="norm">Палатка "Комфорт"</option>
+                                <option value="eco">Палатка "Эконом"</option>
+                            </select>
+                            <!-- <a class="btn-form" href="/apply" target="_blank" rel="noopener noreferrer">Отправить
+                                заявку</a> -->
+                            <button type="submit" class="btn-form">Отправить заявку</button>
+                        </form>
+
+                    </div>
+                    <div class="contact-map">
+                        <div class="contact-map-placeholder">
+                            <i class="las la-map"></i>
+                            <p>Карта как добраться</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="logo">
+                    <img class="LOGO" src="source/image/LOGO.png" alt="ВХД">
+                    <span>База отдыха "Выходское"</span>
+                </div>
+
+                <p>мы ценим экологию: сортируем отходы и бережно относимся к лесным богатствам</p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="lab la-vk"></i></a>
+                    <a href="#"><i class="lab la-telegram"></i></a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p> &copy; 2026 База отдыха "Выходское". Все права защищены и все такое.</p>
+                <p>Сайт создан в учебных целях</p>
+            </div>
+
+    </footer>
+
+</body>
+
+</html>
