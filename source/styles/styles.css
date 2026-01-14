@@ -496,15 +496,18 @@ footer {
 
 @media (max-width: 768px) {
 
-    header {
-        height: 230px;
+       header {
+        height: 180px;
 
+    }
+
+    .phone {
+        display: none;
     }
 
     .hero {
-        margin-top: 230px;
+        margin-top: 180px;
     }
-
     .navbar {
         flex-direction: column;
         padding: 15px;
@@ -538,5 +541,6 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
