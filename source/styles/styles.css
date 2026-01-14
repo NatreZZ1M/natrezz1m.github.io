@@ -496,7 +496,7 @@ footer {
 
 @media (max-width: 768px) {
 
-       header {
+    header {
         height: 200px;
 
     }
@@ -541,6 +541,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 
