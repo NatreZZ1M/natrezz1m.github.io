@@ -497,7 +497,7 @@ footer {
 @media (max-width: 768px) {
 
        header {
-        height: 180px;
+        height: 200px;
 
     }
 
@@ -506,7 +506,7 @@ footer {
     }
 
     .hero {
-        margin-top: 180px;
+        margin-top: 200px;
     }
     .navbar {
         flex-direction: column;
@@ -541,6 +541,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 
