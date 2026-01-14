@@ -497,12 +497,12 @@ footer {
 @media (max-width: 768px) {
 
     header {
-        height: 220px;
+        height: 230px;
 
     }
 
     .hero {
-        margin-top: 220px;
+        margin-top: 230px;
     }
 
     .navbar {
@@ -538,4 +538,5 @@ footer {
         font-size: 2rem;
     }
 }
+
 
